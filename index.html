@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>Find Your Favorite Fruits & Vegetable</h1>
+  <div class="main">
+    <input type="search" id="search" placeholder="Select..." />
+    <select id="category">
+      <option value="all">all</option>
+      <option value="fruit">Fruit</option>
+      <option value="vegetable">Vegetable</option>
+      <option value="citrus">Sitrus</option>
+    </select>
+    <div id="search-kcal">
+      <input type="number" id="from" placeholder="from" />
+      <input type="number" id="to" placeholder="to" />
+      <button id="searchBtn">
+        <svg xmlns="http://www.w3.org/2000/svg"
+        width="16" 
+        eight="16"
+        viewBox="0 0 24 24" fill="#ccc">
+          <path
+            d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
+          </path>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div id="result"></div>
+  <script type="module" src="./money.js"></script>
+</body>
+
+</html>
